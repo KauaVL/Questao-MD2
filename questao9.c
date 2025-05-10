@@ -1,3 +1,9 @@
+
+/*
+* Aluno: Kauã Vale Leão
+* Matricula: 232014057
+*/
+
 #include <stdio.h>
 
 int inverso_modular(int g, int n) {
@@ -121,7 +127,7 @@ int main() {
         x1 = n1 - 1;
     } else {
         printf("Numero nao primo identificado\n");
-        x1 = tot(n1);
+        x1 = phi_euler(n1);
         printf("Usando Teorema de Euler: phi(%d) = %d\n", n1, x1);
     }
 
